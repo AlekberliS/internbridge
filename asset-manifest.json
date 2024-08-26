@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/internbridge/static/css/main.70594fdc.css",
+    "main.js": "/internbridge/static/js/main.3f517c65.js",
+    "static/js/453.ed3810f9.chunk.js": "/internbridge/static/js/453.ed3810f9.chunk.js",
+    "static/media/heroImage.png": "/internbridge/static/media/heroImage.8c7bc5fa279d4678be56.png",
+    "static/media/aboutImage.png": "/internbridge/static/media/aboutImage.99c678ba43ec61a6d1d8.png",
+    "index.html": "/internbridge/index.html",
+    "main.70594fdc.css.map": "/internbridge/static/css/main.70594fdc.css.map",
+    "main.3f517c65.js.map": "/internbridge/static/js/main.3f517c65.js.map",
+    "453.ed3810f9.chunk.js.map": "/internbridge/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.70594fdc.css",
+    "static/js/main.3f517c65.js"
+  ]
+}
