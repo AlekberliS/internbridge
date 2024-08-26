@@ -1,0 +1,117 @@
+.projectSection {
+    width: 80%;
+    margin: 40px auto;
+    padding: 10px;
+  }
+  
+  .projectContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .projectCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 16px;
+    margin: 20px 10px;
+    min-height: 480px !important;
+    width: 300px; /* Adjust width of the card */
+    background-color: transparent; /* Light background for the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  .projectImage {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+  }
+  
+  .projectName {
+    font-size: 1.25rem;
+    margin: 8px 0;
+    color: var(--color-primary); /* Darker text color */
+  }
+  
+  .projectAbout {
+    font-size: 1rem;
+    margin: 8px 0;
+    color: #666; /* Lighter text color */
+  }
+  
+  .tools {
+    margin: 8px 0;
+  }
+  
+  .toolsList {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+    color: #333; /* Darker text color for tools */
+  }
+  
+  .toolItem {
+    margin: 5px 0;
+  }
+  .tools {
+   display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+
+  .toolItem {
+  
+    border-radius: 4px; /* Rounded corners */
+    padding: 8px; /* Padding */
+    text-align: center; /* Center align text */
+  }
+  
+  /* Ensure list items are styled correctly */
+  .tools li {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .projectLink {
+    color: #007bff; /* Primary link color */
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .projectLink:hover {
+    text-decoration: underline;
+  }
+  
+  .links {
+    margin-top: 10px;
+  }
+  
+  .toggleButton {
+    background: none;
+    border: none;
+    color: #007bff; /* Button color */
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 5px;
+  }
+  
+  .toggleButton:hover {
+    text-decoration: underline;
+  }
+  
+  /* Media Queries for responsiveness */
+  @media (max-width: 768px) {
+    .projectCard {
+      width: 100%;
+    }
+  
+    .projectContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

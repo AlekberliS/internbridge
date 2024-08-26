@@ -1,0 +1,51 @@
+[
+  {
+    "name": "EmkiProduction website",
+    "tools": ["HTML", "Tailwind CSS", "Vanilla JavaScript", "Swiper JS", "API", "i18next"],
+    "image": "../../../projects/empkiprod.png",
+    "link": "-",
+    "source_code": "https://github.com/AlekberliS/EmkiprodTask",
+    "about": "The 'EmkiProduction website' is a web project designed to showcase the capabilities of modern web technologies. The website leverages HTML for its structure, Tailwind CSS for responsive and utility-first styling, and Vanilla JavaScript for interactive elements. It also incorporates Swiper JS to create smooth and visually appealing carousels and sliders, enhancing the user experience. The site uses API integration to dynamically fetch and display content, making it more flexible and up-to-date. Additionally, i18next is employed to manage multi-language support, ensuring that the website can cater to a diverse audience by providing content in different languages. The project is available as an open-source resource on GitHub, where the code is accessible for review and collaboration."
+  },
+  {
+    "name": "E-commerce website",
+    "tools": ["HTML", "CSS", "Vanilla JavaScript", "jQuery", "JSON"],
+    "image": "../../../projects/ecommerce.png",
+    "link": "https://monumental-otter-43c45c.netlify.app/",
+    "source_code": "https://github.com/AlekberliS/Full-Ecommerce",
+    "about": "The E-commerce website is an online store built using HTML, CSS, and Vanilla JavaScript, enhanced with jQuery for dynamic content manipulation. The site includes various features such as product listings, a shopping cart, and checkout functionality, all powered by data fetched from JSON files. The design emphasizes user experience, with intuitive navigation and smooth interactions. This project showcases the integration of front-end technologies to create a functional and aesthetically pleasing online shopping platform."
+  },
+  {
+    "name": "Currency Converter",
+    "tools": ["HTML", "CSS", "Vanilla JavaScript", "API"],
+    "image": "../../../projects/currency.png",
+    "link": "https://currency-converterinteractive.netlify.app/",
+    "source_code": "https://github.com/AlekberliS/Interactive-currency-converter",
+    "about": "The Currency Converter is a simple and efficient web application designed to convert currencies between various international rates. Built with HTML, CSS, and Vanilla JavaScript, the app features a clean and responsive design. It fetches real-time exchange rates from an external API, ensuring accurate conversions. Users can input any amount and select from a wide range of currencies to see instant results. This project demonstrates the practical use of API integration with JavaScript to create a functional and user-friendly financial tool."
+  },
+  
+  {
+    "name": "Countries API",
+    "tools": ["HTML", "CSS", "Vanilla JavaScript", "API"],
+    "image": "../../../projects/countries.png",
+    "link": "https://countries-api-fmws.netlify.app/",
+    "source_code": "https://github.com/AlekberliS/Country-Information-App",
+    "about": "The Countries API project is a dynamic web application that provides detailed information about countries around the world. Built using HTML, CSS, and Vanilla JavaScript, this application fetches data from an external API to display key information such as population, region, and capital for each country. The app is designed with a clean and intuitive user interface, allowing users to search for specific countries and filter them by region. This project highlights the integration of API data with JavaScript to deliver a seamless user experience, showcasing the practical application of modern web development techniques."
+  },
+  {
+    "name": "IP Tracker",
+    "tools": ["HTML", "CSS", "Vanilla JavaScript", "API", "Leaflet library"],
+    "image": "../../../projects/ipAdd.png",
+    "link": "https://fmwb-api-tracker.netlify.app/",
+    "source_code": "https://github.com/AlekberliS/IP-tracker",
+    "about": "The IP Tracker is a web application designed to provide detailed geolocation information based on an IP address. Using HTML, CSS, and Vanilla JavaScript, the app integrates the Leaflet library for interactive map display and fetches data from an external API to pinpoint the exact location associated with the IP address. Users can enter any IP address to retrieve and visualize the geographic location, including details like the city, region, and country. This project showcases the effective use of API and mapping libraries to create a practical and engaging user experience."
+  },
+  {
+    "name": "To Do List",
+    "tools": ["HTML", "CSS", "Vanilla JavaScript"],
+    "image": "../../../projects/todolist.png",
+    "link": "https://todo-listtsa.netlify.app/",
+    "source_code": "https://github.com/AlekberliS/todo-listt",
+    "about": "The To Do List is a simple yet effective web application designed to help users manage their tasks. Built with HTML, CSS, and Vanilla JavaScript, this project offers a clean and intuitive user interface where users can add, edit, and delete tasks. The application features interactive elements, allowing users to mark tasks as complete and filter them by status. This project highlights the practical use of JavaScript for dynamic content updates and CSS for a responsive and aesthetically pleasing layout. It's an excellent demonstration of front-end skills applied to create a functional and user-friendly productivity tool."
+  }
+]

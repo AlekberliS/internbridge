@@ -1,0 +1,46 @@
+{
+    "education": [
+      {
+        "institution": "Azerbaijan State Oil and Industry University",
+        "degree": "Information Technologies",
+        "startDate": "2021 sep",
+        "endDate": "present",
+        "grade": "630.2"
+      },
+      {
+        "institution": "Algorithmics -CodeForFuture",
+        "degree": "Web development",
+        "startDate": "2023 sep",
+        "endDate": "december",
+        "successRate": "100%"
+      },
+      {
+        "institution": "MasterCode Training Center",
+        "degree": "Web development",
+        "startDate": "2023 november",
+        "endDate": "2024 february",
+        "successRate": "90%"
+      }
+    ],
+    "experience": [
+      {
+        "company": "PlacementDost",
+        "role": "Web Development Internship",
+        "startDate": "2024 april",
+        "endDate": "may"
+      },
+      {
+        "company": "MyMentor Internship",
+        "role": "Web development intern",
+        "startDate": "2024 august",
+        "endDate": "present"
+      },
+      {
+        "company": "InternBridge",
+        "role": "Software development intern",
+        "startDate": "2024 august",
+        "endDate": "present"
+      }
+    ]
+  }
+  

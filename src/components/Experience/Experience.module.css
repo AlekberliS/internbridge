@@ -1,0 +1,96 @@
+@import '../../var.css';
+.container {
+    font-family: 'Arial, sans-serif';
+    padding: 20px;
+    margin: 40px auto;
+    background-color: var(--color-bg);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   
+    width: 70%;
+    box-sizing: border-box;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    flex-grow: 1;
+    flex-basis: 120px;
+  }
+  
+  .activeButton {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    flex-grow: 1;
+    flex-basis: 120px;
+  }
+  
+  .content {
+    text-align: left;
+    background-color:var(--color-bg);
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .listItem {
+    background-color: #000;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .listItem b {
+    font-size: 1.1em;
+    color: var(--color-dark);
+  }
+  
+  .listItem p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+ .container{
+    width: 90%;
+ }
+    .button, .activeButton {
+      margin: 10px 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      padding: 10px;
+    }
+    .listItem {
+      padding: 10px;
+    }
+  }
+  
